@@ -1,1 +1,20 @@
+# Personal Intro Program
 
+## Project Overview
+A beginner-level command-line Python program that asks for the user's
+name, age, and favorite hobby, then prints a friendly welcome message.
+
+The script runs top to bottom in one pass:
+1. Three `input()` calls collect name, age, and hobby as variables.
+2. Three `print()` calls (one blank line, then two f-string lines)
+   display the welcome message.
+
+## Sample Output
+```
+What is your name? Hemant
+How old are you? 23
+What is your favorite hobby? Cricket
+
+🎉 Welcome Hemant! 🎉
+You are 23 years old and love Cricket.
+```
